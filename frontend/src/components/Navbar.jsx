@@ -7,7 +7,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
     <nav>
-      <div className="logo">ZEESHU</div>
+      <div className="logo">KAMNIK</div>
       <div className={show ? "navLinks showmenu" : "navLinks"}>
         <div className="links">
           {data[0].navbarLinks.map((element) => {
