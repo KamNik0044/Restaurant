@@ -1,5 +1,6 @@
 import app from "./app.js";
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server Running On Port ${process.env.PORT}`);
+
+app.listen(4000, () => {
+  console.log(`Server Running On Port ${4000}`);
 });
